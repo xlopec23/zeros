@@ -5,6 +5,5 @@ module.exports = function getZerosCount(number) {
     zerosCount += number;
     }
      while (number > 1);
-
   return (zerosCount);
 }
